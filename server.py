@@ -30,7 +30,7 @@ while True:
     count +=1
  
     # send back data to client
-    data_send = "" + data
+    data_send = "ack" + data
     client_socket.send(data_send.encode())
     time.sleep(2)
 
