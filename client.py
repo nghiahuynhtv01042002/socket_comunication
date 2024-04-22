@@ -4,11 +4,11 @@ import time
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Kết nối tới server
-client_socket.connect(('127.0.0.1', 12345))
+client_socket.connect(('192.168.31.252', 12345))
 count = 0
 while True:
     # Nhập dữ liệu từ người dùng
-    message = "+ hello my name is TXN"
+    message = "I Am TXN\n"
     # Gửi dữ liệu tới server
     client_socket.send(message.encode())
     
