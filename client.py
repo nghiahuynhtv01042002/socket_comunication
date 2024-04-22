@@ -4,7 +4,7 @@ import time
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # conect to server
-client_socket.connect(('192.168.31.252', 12345))
+client_socket.connect(('192.168.207.70', 12345))
 count = 0
 while True:
     # enter message
